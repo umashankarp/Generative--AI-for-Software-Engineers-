@@ -1,4 +1,4 @@
-# Generative--AI-for-Software-Engineers-
+# Generative AI for Software Engineers & Developers
 1000+ GenAI Prompts to Accelerate Your Software Engineering Journey
 
 # Backend Development with REST APIs
