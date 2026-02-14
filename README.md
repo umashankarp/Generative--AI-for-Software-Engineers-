@@ -2168,3 +2168,874 @@
 
 "Create an audit trail framework ensuring all training runs, parameters, datasets, and evaluation results are logged for compliance audits."
 
+# Self-Healing Infrastructure (Auto-Remediation Scripts)
+# Self-Healing Infrastructure (Auto-Remediation Scripts) — focusing on building resilient cloud-native systems that detect, respond, and automatically fix failures without human intervention.
+
+"Create an AWS Lambda function that automatically replaces unhealthy EC2 instances detected by CloudWatch alarms."
+
+
+"Write an auto-remediation script to restart crashed Kubernetes pods based on failed liveness probes using Kubernetes client libraries."
+
+
+"Generate a Terraform automation that triggers a fresh deployment of infrastructure if a CloudFormation stack enters a failed state."
+
+
+"Develop a self-healing mechanism that recreates missing or accidentally deleted S3 buckets using AWS Config Rules and Lambda triggers."
+
+
+"Create an Ansible playbook to detect and restart downed services (example: nginx, postgres) on a fleet of Linux servers."
+
+
+"Write a Jenkins pipeline step to monitor failed deployments and automatically roll back to the previous stable artifact version."
+
+
+"Generate an AWS Systems Manager (SSM) document for automatically patching EC2 instances found vulnerable during compliance scans."
+
+
+"Create a script to detect Kubernetes node failures and automatically cordon and drain unhealthy nodes for replacement."
+
+
+"Write a Prometheus alertmanager receiver that triggers a Slack bot and auto-triggers remedial scaling actions for under-provisioned services."
+
+
+"Develop a serverless remediation workflow using AWS Step Functions that orchestrates backup recovery on database failure events."
+
+
+"Generate an Azure Monitor auto-healing rule that restarts an App Service if response times exceed a threshold for a sustained period."
+
+
+"Create a GCP Cloud Functions script that automatically resets crashed VMs or scales out Kubernetes node pools during stress conditions."
+
+
+"Write an auto-remediation handler in Python to detect SSL certificate expiration and request a renewal from AWS ACM automatically."
+
+
+"Develop a Chaos Engineering tool integration that injects random faults and verifies the effectiveness of self-healing actions."
+
+
+"Generate an automated security remediation script that isolates compromised EC2 instances by modifying security groups dynamically."
+
+
+"Create a runbook that defines automated escalations if auto-remediation fails after three consecutive retries."
+
+
+"Write an alert-driven automation that vertically scales Kubernetes pods by adjusting resource limits when CPU saturation is detected."
+
+
+"Develop a failover automation script that promotes a standby RDS database to primary upon instance or AZ failure."
+
+
+"Generate a framework for building auto-remediation bots that respond to CloudWatch, Datadog, or New Relic alerts in real time."
+
+
+"Create a dynamic thresholding system where alert thresholds are adjusted automatically based on time-series anomaly detection models."
+
+# OpenTelemetry for Distributed Tracing and Metrics
+# OpenTelemetry for Distributed Tracing and Metrics — focusing on observability, tracing complex service flows, metrics collection, and performance troubleshooting in modern distributed systems.
+
+"Create a basic OpenTelemetry instrumentation setup in a Node.js Express application to trace incoming HTTP requests."
+
+
+"Write an OpenTelemetry Python script that collects and exports service metrics (latency, error rate, request count) to Prometheus."
+
+
+"Generate a strategy for setting up OpenTelemetry SDK and auto-instrumentation for a Java Spring Boot microservice."
+
+
+"Develop a workflow for exporting OpenTelemetry traces to Jaeger for visualizing service-to-service communication flows."
+
+
+"Create a FastAPI middleware that propagates OpenTelemetry trace context across all incoming and outgoing HTTP calls."
+
+
+"Write a plan for setting up OpenTelemetry collectors in Kubernetes to receive telemetry data and forward it to Grafana Tempo and Loki."
+
+
+"Generate OpenTelemetry spans and attributes for database query executions in a Django ORM-based backend."
+
+
+"Create a metrics pipeline that captures gRPC service performance using OpenTelemetry and exports to a Prometheus-compatible backend."
+
+
+"Write a sampling configuration to reduce the volume of OpenTelemetry traces collected during peak traffic hours."
+
+
+"Develop a distributed tracing visualization using Grafana Tempo to diagnose request bottlenecks across microservices."
+
+
+"Generate a plan to correlate application logs, traces, and metrics for complete observability using OpenTelemetry and Grafana Loki."
+
+
+"Create a Kubernetes DaemonSet deployment for OpenTelemetry Collector agents scraping pod-level metrics and traces automatically."
+
+
+"Write an example of custom span creation to measure internal processing stages (authentication, DB queries, caching) inside a Node.js API."
+
+
+"Develop a real-time alerting system based on OpenTelemetry metrics, triggering alarms when p95 latency breaches thresholds."
+
+
+"Generate a plan to instrument Kafka producers and consumers with OpenTelemetry for monitoring event processing latency."
+
+
+"Create a resource tagging strategy for OpenTelemetry spans, ensuring services are annotated with region, environment, and version metadata."
+
+
+"Write a GitHub Actions workflow to validate OpenTelemetry instrumentation health checks during application build pipelines."
+
+
+"Develop an OpenTelemetry Collector config that ingests metrics, traces, and logs, and routes them conditionally to different observability backends."
+
+
+"Generate an OpenTelemetry-based dashboard showing top API endpoints by average response time and error rates."
+
+
+"Create a playbook for troubleshooting distributed trace gaps caused by missing context propagation between microservices."
+
+# Graph Database Design (Neo4j, Cypher Queries)
+# Graph Database Design (Neo4j, Cypher Queries) — focusing on designing graph data models, querying relationships, building efficient graph-based systems, and leveraging Neo4j and Cypher.
+
+"Create a Neo4j data model for a social network application, representing users, friendships, and groups."
+
+
+"Write Cypher queries to find mutual friends between two users in a Neo4j graph database."
+
+
+"Generate a property graph schema design for a supply chain network showing suppliers, products, and shipments."
+
+
+"Develop Cypher queries to detect cycles in a payment transaction network to identify potential fraud."
+
+# Prompt Engineering for Code Generation
+# Prompt Engineering for Code Generation — focusing on crafting highly effective prompts to generate, refactor, optimize, and document code using AI tools like GPT-4, Codex, Claude, Gemini, and CodeLlama.
+
+"Generate Python code for a REST API with CRUD operations for a Book resource using FastAPI and Pydantic models."
+
+
+"Write a prompt that asks AI to refactor a 500-line monolithic Node.js function into modular, reusable services."
+
+
+"Create a prompt that generates unit test cases for a Java Spring Boot controller handling user registration and authentication."
+
+
+"Design a prompt for generating Terraform scripts that provision an S3 bucket with versioning, encryption, and lifecycle rules enabled."
+
+
+"Write a prompt to generate a Dockerfile and docker-compose.yml file for a Django application with PostgreSQL and Redis services."
+
+
+"Create a prompt that auto-generates GraphQL type definitions and resolvers based on a given database schema."
+
+
+"Generate a prompt that creates Kubernetes manifests (Deployment, Service, Ingress) for a multi-container microservices application."
+
+
+"Write a prompt to auto-generate SQL queries that retrieve all orders placed by users in the last 30 days grouped by product category."
+
+
+"Create a prompt that instructs the AI to suggest optimizations for a Python script with high memory usage issues."
+
+
+"Develop a prompt that asks AI to automatically document a complex React component including prop types and usage examples."
+
+
+"Generate a prompt that creates OpenAPI 3.0 (Swagger) specification files from a list of API endpoint descriptions."
+
+
+"Write a prompt to auto-generate CI/CD YAML pipelines for GitHub Actions that build, test, and deploy a Node.js backend."
+
+
+"Create a prompt that instructs AI to generate Bash scripts for automating server setup and Nginx configuration on Ubuntu."
+
+
+"Develop a prompt that asks AI to refactor legacy PHP code into a modern Laravel structure with service layers and repositories."
+
+
+"Generate a prompt for AI to write Cypress end-to-end test scripts for user registration and checkout workflows in a web app."
+
+
+"Write a prompt that generates infrastructure-as-code (IaC) using Pulumi in TypeScript for spinning up AWS resources."
+
+
+"Create a prompt to produce detailed error-handling middleware for an Express.js API, handling validation and authentication errors."
+
+
+"Generate a prompt that creates an AWS Lambda function (Node.js) for resizing images uploaded to an S3 bucket."
+
+
+"Write a prompt that auto-generates reusable UI component libraries in React, including Storybook integration for documentation."
+
+
+"Develop a prompt that requests AI to generate clean, scalable folder structures for large monorepos managing microservices and frontends."
+
+
+"Create a Neo4j graph database model for managing hierarchical organizational structures (departments, teams, managers)."
+
+
+"Write Cypher queries that traverse multiple hops to recommend products based on 'frequently bought together' relationships."
+
+
+"Generate a strategy to model IoT device networks using nodes for devices and edges for communications in Neo4j."
+
+
+"Create Cypher queries to find the shortest path between two users in a large social graph."
+
+
+"Write a query that identifies influencers by calculating node centrality metrics (example: betweenness centrality) in Neo4j."
+
+
+"Develop a Neo4j schema and Cypher queries to model movie data, showing actors, directors, and movie relationships."
+
+
+"Generate Cypher queries to find all employees indirectly reporting to a given manager in an organizational graph."
+
+
+"Create a data ingestion strategy for importing CSV files into Neo4j nodes and relationships using Cypher's LOAD CSV functionality."
+
+
+"Write a Cypher query to recommend new connections to users based on shared interests or common groups."
+
+
+"Develop a graph database design for a knowledge graph system capturing entities like people, organizations, events, and their relationships."
+
+
+"Generate a Cypher query that identifies all direct and indirect dependencies between microservices in a service mesh graph."
+
+
+"Create a dynamic property assignment query in Cypher to enrich nodes with additional metadata (example: last updated timestamps)."
+
+
+"Write a query to analyze and visualize fraud rings by detecting densely connected subgraphs in transaction data."
+
+
+"Develop a Neo4j database partitioning strategy for scaling graphs horizontally across large datasets."
+
+
+"Generate a Cypher query that performs a recommendation of similar products based on user browsing history and co-purchases."
+
+
+"Create a plan for setting up access control in Neo4j to restrict users from accessing sensitive parts of a graph."
+
+# Prompt Engineering for Code Review and Static Analysis
+# Prompt Engineering for Code Review and Static Analysis — focusing on crafting prompts to automate code quality checks, detect vulnerabilities, suggest improvements, and enhance maintainability.
+
+"Write a prompt that asks AI to review a Node.js backend API codebase and identify any violations of SOLID principles."
+
+
+"Create a prompt to perform static analysis on a React application to detect common performance bottlenecks and rendering issues."
+
+
+"Generate a prompt that reviews a Python Flask app for potential SQL injection risks and suggests mitigation techniques."
+
+
+"Develop a prompt that analyzes Java Spring Boot services and identifies code smells like God Classes, Long Methods, and Duplicate Code."
+
+
+"Write a prompt to check an Express.js middleware stack for proper error handling, validation, and security best practices."
+
+
+"Create a prompt asking AI to conduct static code analysis and detect unused variables, unreachable code, and dead functions in a Django app."
+
+
+"Generate a prompt that reviews Terraform infrastructure scripts for hardcoded secrets, security misconfigurations, and lack of versioning."
+
+
+"Write a prompt to review TypeScript code for missing type definitions, unsafe any usage, and improper exception handling."
+
+
+"Create a prompt that checks Kubernetes manifests for anti-patterns like privileged containers, missing resource limits, and insecure mounts."
+
+
+"Develop a prompt that audits a Node.js API for secure authentication implementation, looking for flaws in password hashing or JWT handling."
+
+
+"Write a prompt that requests AI to suggest improvements for GitHub Actions workflows focused on improving security and caching efficiency."
+
+
+"Generate a prompt for reviewing C# .NET Core backend code for common concurrency issues and thread safety risks."
+
+
+"Create a prompt to analyze GraphQL server code for vulnerabilities such as excessive query depth and authorization bypass risks."
+
+
+"Develop a prompt that evaluates GoLang microservices for error propagation issues and missing retry logic in external API calls."
+
+
+"Write a prompt that performs static security analysis on Dockerfiles checking for best practices like using slim images and non-root users."
+
+
+"Generate a prompt to review code for adherence to company-specific style guidelines (example: naming conventions, comment standards)."
+
+
+"Create a prompt that suggests refactorings to break down large classes and methods in a legacy monolithic application."
+
+
+"Write a prompt to check static HTML/CSS/JS files for accessibility (A11Y) issues like missing alt tags and poor color contrasts."
+
+
+"Generate a prompt that scans API client code for proper timeout settings, retry policies, and error handling robustness."
+
+
+"Create a prompt to review pull request diffs and highlight potential areas for performance optimization, security improvements, and readability enhancement."
+
+# Multi-Cloud Deployment and Management
+# Multi-Cloud Deployment and Management — focusing on designing, deploying, and managing systems that span AWS, Azure, GCP, and more for redundancy, cost optimization, and compliance.
+
+"Create a multi-cloud deployment architecture that distributes a web application across AWS, Azure, and GCP for resilience and latency optimization."
+
+
+"Write a Terraform script that provisions identical Kubernetes clusters on both AWS EKS and GCP GKE for hybrid multi-cloud deployment."
+
+
+"Generate a CI/CD pipeline to deploy containerized applications to both Azure Kubernetes Service (AKS) and Amazon Elastic Kubernetes Service (EKS)."
+
+
+"Develop a strategy for active-active load balancing across multiple clouds using DNS-based routing (example: AWS Route53 + GCP Cloud DNS)."
+
+
+"Create an IaC (Infrastructure as Code) plan using Pulumi to deploy serverless APIs on AWS Lambda and Azure Functions simultaneously."
+
+
+"Write a multi-cloud disaster recovery (DR) plan ensuring RTO (Recovery Time Objective) of 5 minutes using AWS and Azure."
+
+
+"Generate an observability setup for monitoring applications deployed across AWS, Azure, and GCP using Prometheus and Grafana federated architecture."
+
+
+"Develop a cost optimization strategy for multi-cloud deployments by leveraging spot instances (AWS) and preemptible VMs (GCP)."
+
+
+"Create a centralized logging system using OpenTelemetry and Loki to collect logs from applications running across multiple cloud providers."
+
+
+"Write an example workflow for syncing data between AWS S3 and Azure Blob Storage automatically using cloud-native tools."
+
+
+"Generate a Kubernetes federation strategy to manage and schedule workloads across multi-cloud Kubernetes clusters (EKS, AKS, GKE)."
+
+
+"Create a plan for identity federation between AWS IAM, Azure Active Directory, and GCP Identity Platform for centralized authentication."
+
+
+"Write a GitOps workflow to deploy versioned microservices consistently across AWS, Azure, and GCP clusters using ArgoCD."
+
+
+"Develop a network design to establish secure inter-cloud communication using VPN tunnels or direct connect services."
+
+
+"Create a Helm chart that supports multi-cloud configuration flags for deploying apps conditionally on different clouds."
+
+
+"Write a failover routing policy using Cloudflare Load Balancer across AWS, Azure, and GCP data centers."
+
+
+"Generate a Kubernetes Operator that ensures service health checks and automated redeployments in multi-cloud environments."
+
+
+"Create a Vault-based multi-cloud secrets management strategy ensuring minimal latency for secret access across clouds."
+
+
+"Write a compliance and governance checklist for managing data residency across AWS, Azure, and GCP under GDPR regulations."
+
+
+"Develop a playbook for running blue-green deployments simultaneously across AWS and Azure cloud regions during application upgrades."
+
+# Zero Trust Security Model Implementation
+# Zero Trust Security Model Implementation — focusing on building identity-centric, least-privilege, continuously verified systems across users, workloads, and networks.
+
+"Create a Zero Trust architecture design for a SaaS platform enforcing authentication, authorization, and continuous monitoring at every layer."
+
+
+"Write a strategy to implement identity-aware proxies (example: Google IAP, AWS Verified Access) for securing application access without VPNs."
+
+
+"Generate a step-by-step guide for adopting least privilege access policies across AWS IAM roles, groups, and permissions boundaries."
+
+
+"Develop a microsegmentation plan using Kubernetes NetworkPolicies to restrict east-west traffic inside a multi-tenant cluster."
+
+
+"Create a workflow for implementing multi-factor authentication (MFA) and adaptive risk-based authentication in Azure Active Directory."
+
+
+"Write a Zero Trust network access (ZTNA) blueprint for remote employees accessing corporate applications through secure gateways."
+
+
+"Generate a Vault configuration to manage dynamic secrets issuance for applications based on short-lived credentials and least privilege."
+
+
+"Create a policy enforcement workflow using Open Policy Agent (OPA) and Gatekeeper in Kubernetes to implement Zero Trust access control."
+
+
+"Write a plan for implementing continuous authentication and session re-evaluation based on device health and user behavior analytics."
+
+
+"Develop a serverless function that automatically revokes tokens and sessions if abnormal behavior is detected during runtime."
+
+
+"Generate a microservice communication security model enforcing mTLS (mutual TLS) authentication between internal services."
+
+
+"Create an architecture diagram illustrating a Zero Trust approach using API Gateways, service meshes (Istio), and identity providers."
+
+
+"Write a compliance checklist for aligning Zero Trust implementations with NIST 800-207 and CISA Zero Trust Maturity Model."
+
+
+"Develop an auditing and logging framework ensuring traceability of all access events across APIs, databases, and admin portals."
+
+
+"Generate a step-by-step configuration for deploying BeyondCorp principles using GCP Identity-Aware Proxy (IAP) and Cloud Armor WAF."
+
+
+"Create a DevSecOps pipeline integrating Zero Trust policies into IaC templates, Terraform scripts, and Kubernetes manifests."
+
+
+"Write a strategy for securing third-party vendor access using least-privilege credentials and real-time access validation techniques."
+
+
+"Develop a Zero Trust security awareness training guide for developers, DevOps engineers, and system administrators."
+
+
+"Generate a playbook for performing Zero Trust security posture assessments and iterative maturity improvements quarterly."
+
+
+"Create a Zero Trust reference architecture for securing hybrid cloud workloads operating across AWS, Azure, and on-premises data centers."
+
+# API Load Testing and Stress Testing (Locust, k6)
+# API Load Testing and Stress Testing (Locust, k6) — focusing on building scalable, automated, and insightful performance tests to validate API reliability, throughput, and resilience.
+
+"Create a basic Locust load test script that simulates 100 users performing login and data retrieval actions on a REST API."
+
+
+"Write a k6 script to load test a GraphQL endpoint with a mix of queries and mutations under a constant arrival rate model."
+
+
+"Generate a Locustfile that models complex user behavior workflows across multiple API endpoints in an e-commerce system."
+
+
+"Develop a stress testing scenario using k6 to push a Node.js API to its breaking point by gradually increasing concurrent virtual users."
+
+
+"Create a k6 test that injects random failures and latency to simulate real-world degraded network conditions during API calls."
+
+
+"Write a Locust task set that simulates authenticated API requests with OAuth2 bearer tokens dynamically refreshed during test runs."
+
+
+"Generate a setup for distributed load testing using multiple Locust workers running on Kubernetes across AWS and Azure."
+
+
+"Create a k6 test configuration to perform spike testing by suddenly introducing 10x traffic increase to observe system behavior."
+
+
+"Write a plan for collecting k6 test metrics (response times, error rates, RPS) into InfluxDB and visualizing them with Grafana dashboards."
+
+
+"Develop a Locust load profile that models ramp-up, steady-state, and ramp-down phases to simulate a real daily traffic curve."
+
+
+"Generate a stress test strategy using k6 thresholds to automatically fail builds if 95th percentile response time exceeds SLA limits."
+
+
+"Create a Locust user script that performs file upload and download operations against a RESTful storage service API."
+
+
+"Write a k6 test that simulates thousands of concurrent users placing orders during a flash sale event."
+
+
+"Develop a CI/CD integration plan to run k6 load tests automatically after every API deployment and notify results on Slack."
+
+
+"Generate a Locust script extension that dynamically picks random products from an API response to simulate real browsing behavior."
+
+
+"Create a k6 soak test that runs a low, steady load over 24 hours to uncover memory leaks or performance degradation."
+
+
+"Write a Locust configuration that simulates geographical traffic distribution using different IP address pools per region."
+
+
+"Develop a testing strategy for API rate-limiting scenarios using k6 by intentionally exceeding allowed request limits."
+
+
+"Generate a comparative load testing plan to benchmark two versions of an API using Locust and produce performance improvement reports."
+
+
+"Create a resilience test workflow where k6 tests continue running even if some upstream APIs intermittently fail (resilient test modes)."
+
+# Container Security (Scanning, Hardening, Signing)
+# Container Security (Scanning, Hardening, Signing) — focusing on detecting vulnerabilities, minimizing attack surfaces, enforcing best practices, and ensuring trusted container deployments.
+
+"Create a Dockerfile hardening guide that minimizes base image size, removes build tools, and enforces non-root user execution."
+
+
+"Write a Trivy-based container vulnerability scanning workflow integrated into GitHub Actions CI pipelines."
+
+
+"Generate a script to scan Docker images with Grype and produce an SBOM (Software Bill of Materials) report."
+
+
+"Develop a process to digitally sign Docker images using cosign and verify their integrity before pulling into production clusters."
+
+
+"Create a Kubernetes admission controller policy that only allows the deployment of signed and verified container images."
+
+
+"Write a configuration to automate vulnerability scans of container images stored in AWS ECR using Amazon Inspector."
+
+
+"Generate a checklist for hardening Kubernetes container runtime settings (read-only root filesystem, dropped Linux capabilities, seccomp profiles)."
+
+
+"Create a strategy to update and patch base images automatically in CI/CD pipelines for critical vulnerability mitigation."
+
+
+"Write an Anchore Engine integration plan for scanning containers during the build stage of a Jenkins pipeline."
+
+
+"Develop a policy-as-code approach using OPA (Open Policy Agent) to enforce secure container configurations before admission to Kubernetes."
+
+
+"Generate a workflow for detecting containers running with excessive privileges (example: privileged mode, host networking) in a Kubernetes cluster."
+
+
+"Create a Sigstore-powered signing system to ensure the provenance and trustworthiness of open-source container images."
+
+
+"Write a plan to integrate container security scanning into GitLab CI/CD pipelines with daily scheduled vulnerability scans."
+
+
+"Develop a Docker best practices guide for minimizing container image attack surfaces, including multistage builds."
+
+
+"Generate a compliance checklist (example: CIS Docker Benchmark) for auditing container security in production clusters."
+
+
+"Create a workflow that monitors container runtime behavior using Falco and triggers alerts for suspicious activities."
+
+
+"Write a strategy for maintaining minimal base images using distroless or Alpine to reduce vulnerability exposure."
+
+
+"Develop a vulnerability triaging and prioritization workflow after container scans, tagging critical issues for immediate remediation."
+
+
+"Generate a plan to store signed container images securely in private registries with role-based access controls (RBAC)."
+
+
+"Create a Kubernetes pod security policy (or replacement in newer versions, PodSecurity Standards) enforcing container security best practices."
+
+# Domain-Driven Design (DDD) for Enterprise Applications
+# Domain-Driven Design (DDD) for Enterprise Applications — focusing on strategic and tactical patterns like bounded contexts, aggregates, entities, value objects, repositories, and event-driven communication.
+
+"Create a bounded context design for an e-commerce platform separating Order Management, Inventory, and Payments domains."
+
+
+"Write a guide to identify and model Aggregates in a microservices-based Customer Relationship Management (CRM) system."
+
+
+"Generate a Ubiquitous Language glossary capturing key domain terms for a banking application across loans, accounts, and payments."
+
+
+"Develop a Value Object modeling strategy in a flight booking system (example: Address, Money, FlightTime)."
+
+
+"Create a tactical DDD layer architecture (Entities, Repositories, Services) for a healthcare patient management system."
+
+
+"Write a plan to implement domain events for handling order confirmation and shipping notifications asynchronously in an online store."
+
+
+"Generate a context mapping diagram showing upstream/downstream relationships and Anti-Corruption Layers between legacy ERP systems and new services."
+
+
+"Create an Aggregate Root implementation in Java Spring Boot enforcing invariants for a Hotel Booking domain."
+
+
+"Write a guide for splitting a monolithic financial application into multiple bounded contexts using DDD principles."
+
+
+"Develop a domain service pattern for orchestrating complex business operations like multi-currency transactions in a trading platform."
+
+
+"Generate a repository pattern implementation for persisting complex Aggregate graphs in a PostgreSQL database using JPA/Hibernate."
+
+
+"Create an event sourcing design for the lifecycle of a Product entity in a supply chain management system."
+
+
+"Write a DDD tactical pattern implementation for modeling access control and roles inside an enterprise HR system."
+
+
+"Develop a CQRS (Command Query Responsibility Segregation) model for separating reads and writes in a high-scale order processing system."
+
+
+"Generate an Anti-Corruption Layer pattern between two bounded contexts (example: Inventory Context and Order Fulfillment Context)."
+
+
+"Create a Domain Model design for an insurance claim processing system emphasizing policies, claims, customers, and payouts."
+
+
+"Write a plan to align domain model changes with product backlog refinements during Agile iterations using Event Storming workshops."
+
+
+"Develop an API design guide where APIs reflect the domain model and bounded context boundaries, not technical structures."
+
+
+"Generate a module organization structure based on subdomains and bounded contexts for a large monorepo software project."
+
+
+"Create a governance model for cross-team collaboration around DDD boundaries using Contract Testing and OpenAPI specifications."
+
+# Kubernetes Best Practices for Application Deployment
+# Kubernetes Best Practices for Application Deployment — focusing on deploying reliable, scalable, secure, and maintainable applications on Kubernetes clusters.
+
+"Create a Kubernetes deployment manifest enforcing resource requests and limits for CPU and memory for all application pods."
+
+
+"Write a Helm chart to standardize the deployment of microservices with environment-specific overrides (example: dev, staging, prod)."
+
+
+"Generate a Kubernetes configuration that enables Horizontal Pod Autoscaling (HPA) based on CPU and custom application metrics."
+
+
+"Develop a deployment strategy using Canary Deployments with Kubernetes native rollout controllers."
+
+
+"Create a Kubernetes Ingress resource with TLS termination and path-based routing for multi-service web applications."
+
+
+"Write a Kubernetes Secret management plan for securely injecting environment variables into application containers."
+
+
+"Generate a deployment manifest using Kubernetes Deployment and ConfigMap to separate configuration from application code."
+
+
+"Create a Kubernetes PodDisruptionBudget (PDB) to maintain high availability during node maintenance and scaling events."
+
+
+"Write a Kubernetes best practices checklist for ensuring secure container execution (example: non-root user, read-only root filesystem)."
+
+
+"Develop a CI/CD workflow using ArgoCD to continuously deploy GitOps-managed Kubernetes manifests into production clusters."
+
+
+"Generate a deployment plan using Kubernetes StatefulSets for applications requiring stable network identities and persistent storage."
+
+
+"Create a sidecar pattern example where an Nginx sidecar container handles HTTPS termination inside the application pod."
+
+
+"Write a rollout plan using Kubernetes Blue-Green Deployment strategies to minimize downtime during application upgrades."
+
+
+"Develop a Helm umbrella chart structure to manage a complex application composed of multiple dependent microservices."
+
+
+"Generate a Kubernetes namespace isolation strategy for separating workloads based on environments and teams."
+
+
+"Create Kubernetes NetworkPolicies to restrict pod-to-pod communication within the same namespace based on application roles."
+
+
+"Write a Kubernetes liveness and readiness probe configuration for a Java Spring Boot REST API deployment."
+
+
+"Develop a centralized logging architecture collecting Kubernetes pod logs with Fluent Bit and shipping them to Elasticsearch."
+
+
+"Generate a Kubernetes Pod Anti-Affinity rule ensuring replicas of a service are distributed across multiple nodes for resilience."
+
+
+"Create a security context configuration in Kubernetes enforcing dropped Linux capabilities and seccomp profiles for all application pods."
+
+# Monitoring Error Budgets and Service Level Objectives (SLOs)
+# Monitoring Error Budgets and Service Level Objectives (SLOs) — focusing on setting, tracking, alerting, and managing reliability targets in production systems.
+
+"Create a Service Level Objective (SLO) defining 99.9% availability for a public API and its associated error budget."
+
+
+"Write a Prometheus alert rule that triggers if error budget consumption exceeds 50% midway through a 30-day window."
+
+
+"Generate a plan for calculating request success rates over rolling windows to monitor SLO adherence using PromQL queries."
+
+
+"Develop a Grafana dashboard template to visualize SLO targets, error budgets, and burn rates for critical services."
+
+
+"Create an SLO monitoring setup that differentiates between user-facing errors (5xx) and non-user-impacting errors (4xx) in metrics."
+
+
+"Write a strategy for defining latency-based SLOs ensuring 95% of all API responses are below 500 milliseconds."
+
+
+"Generate a burn rate alerting system that provides early warning when error budgets are being consumed too quickly."
+
+
+"Create an automated report that summarizes monthly SLO performance, error budget spend, and reliability trends over time."
+
+
+"Write a Kubernetes ServiceMonitor configuration to scrape SLO-related metrics and feed them into a Prometheus-based monitoring stack."
+
+
+"Develop a threshold-based alerting policy where critical incidents are triggered if the 4-hour burn rate consumes more than 20% of error budget."
+
+
+"Generate a multi-SLO framework managing multiple services with different availability and latency targets under one reliability program."
+
+
+"Create a Service Level Indicator (SLI) design guide for measuring availability, latency, durability, and correctness in distributed systems."
+
+
+"Write a playbook for operationalizing error budgets, including incident response workflows when budgets are exhausted."
+
+
+"Develop a model for adjusting SLOs seasonally or based on product lifecycle phases (beta, GA, mature)."
+
+
+"Generate a plan for implementing customer-facing SLO dashboards to improve transparency and reliability reporting."
+
+
+"Create a system that automatically scales up resources (example: Kubernetes HPA) if SLO thresholds are being approached aggressively."
+
+
+"Write a monthly SLO review meeting agenda template to assess reliability goals, missed targets, and corrective actions."
+
+
+"Develop a strategy to map error budget policies into engineering velocity controls (example: restricting releases after budget burn)."
+
+
+"Generate a Prometheus recording rule that precomputes error budget burn rates to optimize real-time alerting performance."
+
+
+"Create a decision tree guiding whether to prioritize user-visible SLOs, backend durability SLOs, or non-critical services during reliability engineering discussions."
+
+
+# Building Developer Portals and Internal Developer Platforms (IDPs)
+# Building Developer Portals and Internal Developer Platforms (IDPs) — focusing on centralizing developer tools, automating workflows, improving discoverability, and enhancing engineering productivity.
+
+"Create a blueprint for designing a Developer Portal that consolidates API documentation, service catalogs, and onboarding guides."
+
+
+"Write a plan for building an Internal Developer Platform (IDP) offering self-service Kubernetes deployment templates for microservices teams."
+
+
+"Generate a roadmap for integrating GitHub/GitLab repositories, CI/CD pipelines, and service monitoring dashboards into a centralized Developer Portal."
+
+
+"Develop a developer onboarding workflow using the IDP to automate account creation, access provisioning, and environment setup."
+
+
+"Create a plugin architecture guide for extending Backstage.io Developer Portal to include custom tools and workflows."
+
+
+"Write a self-service deployment portal design that allows developers to spin up pre-approved infrastructure templates via Terraform modules."
+
+
+"Generate a strategy to integrate API gateways, secret management, and monitoring stacks into an IDP for end-to-end service management."
+
+
+"Create a catalog service for registering, tracking, and visualizing all microservices deployed across Kubernetes clusters via the Developer Portal."
+
+
+"Write a workflow for implementing fine-grained role-based access control (RBAC) in an IDP managing multi-team environments."
+
+
+"Develop a CI/CD onboarding wizard through the Developer Portal that generates standardized GitOps repositories and ArgoCD applications."
+
+
+"Generate a monitoring dashboard template embedded in the Developer Portal, showing health, deployment status, and SLO compliance for every service."
+
+
+"Create a governance model for reviewing, approving, and auditing service launches initiated via the Developer Platform."
+
+
+"Write a service scorecard generator in the IDP to measure microservice maturity across dimensions like reliability, security, and documentation quality."
+
+
+"Develop a metrics-driven feedback system in the Developer Portal to suggest performance improvements based on observability data."
+
+
+"Generate an integration plan for embedding third-party tools like PagerDuty, Datadog, and LaunchDarkly into the IDP experience."
+
+
+"Create a playbook for versioning APIs and notifying downstream consumers automatically through Developer Portal announcements."
+
+
+"Write a blueprint for building a centralized vulnerability scanning report dashboard into the IDP for all registered services."
+
+
+"Develop a catalog metadata schema for services registered in the IDP, capturing ownership, compliance tags, technology stack, and SLAs."
+
+
+"Generate a Kubernetes namespace automation feature within the IDP that allows developers to request new namespaces with standard security policies."
+
+
+"Create a Developer Experience (DevEx) survey module inside the portal to collect feedback and continuously improve the platform’s usability."
+
+# Performance Engineering and System Optimization Techniques
+# Performance Engineering and System Optimization Techniques — focusing on diagnosing, tuning, scaling, and designing for high performance across backend, frontend, databases, and infrastructure.
+
+"Create a server-side performance profiling guide for diagnosing CPU, memory, and I/O bottlenecks in a Node.js backend application."
+
+
+"Write a plan for tuning SQL database queries using indexing strategies, query rewriting, and execution plan analysis for improved performance."
+
+
+"Generate a caching architecture using Redis and CDN layers to optimize API response times for dynamic and static content."
+
+
+"Develop a JVM tuning checklist for optimizing memory management and garbage collection for high-throughput Java services."
+
+
+"Create a Kubernetes resource tuning strategy for rightsizing CPU, memory, and autoscaling policies to maximize cluster utilization."
+
+
+"Write a workflow for frontend performance audits using Lighthouse scores, Core Web Vitals metrics, and critical rendering path optimizations."
+
+
+"Generate a backend optimization strategy for reducing API latencies through database connection pooling, query batching, and async processing."
+
+
+"Create a methodology for vertical scaling vs horizontal scaling decision-making in cloud-native architectures."
+
+
+"Write a plan for implementing graceful degradation techniques when backend systems experience high load or partial outages."
+
+
+"Develop a load balancing optimization strategy for minimizing request queuing delays across multi-region cloud deployments."
+
+
+"Generate a guide for tuning Elasticsearch clusters for high-ingestion workloads by optimizing indexing, shard allocation, and query caching."
+
+
+"Create a microservices communication optimization blueprint leveraging gRPC instead of REST for low-latency interactions."
+
+
+"Write an infrastructure performance testing framework using tools like k6, Locust, and Artillery to simulate real-world load scenarios."
+
+
+"Develop a network optimization checklist focusing on reducing DNS lookup time, TLS handshake duration, and packet loss across regions."
+
+
+"Generate a serverless performance tuning guide for minimizing cold start times in AWS Lambda, Azure Functions, and Google Cloud Functions."
+
+
+"Create a database sharding strategy for horizontal scaling of a high-write, high-read transactional system."
+
+
+"Write a plan for optimizing GraphQL queries using persisted queries, query batching, and deferred/resolved fields to improve performance."
+
+
+"Develop a real-time monitoring and alerting framework for detecting performance anomalies and auto-scaling preemptively."
+
+
+"Generate a resource contention mitigation strategy by isolating noisy neighbors in Kubernetes clusters through resource quotas and limits."
+
+
+"Create a workload optimization plan that leverages event-driven architectures and queue-based decoupling for bursty traffic patterns."
+
+
+
